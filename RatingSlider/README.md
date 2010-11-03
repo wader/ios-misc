@@ -17,4 +17,4 @@ for example usage.
 
 Slider in `RatingSliderTestView` will look like this:
 
-![RatingSlider example image](RatingSliderExample.png)
+![RatingSlider example image](/wader/iphone-misc/raw/master/RatingSlider/RatingSliderExample.png)
