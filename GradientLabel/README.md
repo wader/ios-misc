@@ -18,4 +18,4 @@ and
 
 Label in `GradientLabelTestView` will look like this:
 
-![GradientLabel example image](/wader/iphone-misc/raw/master/GradientLabel/GradientLabelExample.png)
+![GradientLabel example image](/wader/ios-misc/raw/master/GradientLabel/GradientLabelExample.png)
