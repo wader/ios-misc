@@ -26,13 +26,6 @@
 
 #import "RatingSlider.h"
 
-@interface RatingSlider ()
-
-@property(nonatomic, retain) NSMutableArray *imageViews;
-
-@end
-
-
 @implementation RatingSlider
 
 @synthesize value;
@@ -43,7 +36,6 @@
 @synthesize emptyImage;
 @synthesize halfImage;
 @synthesize fullImage;
-@synthesize imageViews;
 
 - (id)init {
   self = [super init];
@@ -51,16 +43,13 @@
     return nil;
   }
   
-  self.imageViews = [NSMutableArray array];
+  self.opaque = NO;
+  self.backgroundColor = [UIColor clearColor];
   
   return self;
 }
 
 - (void)dealloc {
-  for (UIImageView *image in self.imageViews) {
-    [image removeFromSuperview];
-  }
-  self.imageViews = nil;
   [self.emptyImage release];
   [self.halfImage release];
   [self.fullImage release];
@@ -68,35 +57,35 @@
   [super dealloc];
 }
 
-- (void)update {
+- (void)drawRect:(CGRect)rect {
   if (self->emptyImage == nil || self->halfImage == nil ||
       self->fullImage == nil || self->stars == 0) {
     return;
   }
-
+  
   CGRect f = CGRectMake(0, 0,
                         self->emptyImage.size.width, 
                         self->emptyImage.size.height);
   float delta = self->max - self->min;
   float step = delta / self->stars;
   float v = self->min;
-  for (UIImageView *image in self.imageViews) {
+  for (int i = 0; i < self->stars; i++) {
+    // uses value property which takes care of integerValue
     float d = self.value - v;
-    image.frame = f;
-
+    
     if (d < step / 4) {
-      image.image = self->emptyImage;
+      [self->emptyImage drawInRect:f];
     } else if (d >= step / 4 && d <= (step / 4) * 3) {
-      image.image = self->halfImage;
+      [self->halfImage drawInRect:f];
     } else {
-      image.image = self->fullImage;
+      [self->fullImage drawInRect:f];
     }
     
     v += step;
     f.origin.x += f.size.width;
   }
 }
-
+				
 - (BOOL)beginTrackingWithTouch:(UITouch *)touch withEvent:(UIEvent *)event {
   if (self.emptyImage == nil || self.emptyImage.size.width == 0 ||
       self->stars == 0) {
@@ -115,7 +104,7 @@
   }
   
   [self sendActionsForControlEvents:UIControlEventValueChanged];
-  [self update];
+  [self setNeedsDisplay];
   
   return YES;
 }
@@ -139,7 +128,7 @@
     self->max = aMin;
   }
   
-  [self update];
+  [self setNeedsDisplay];
 }
 
 - (void)setMax:(float)aMax {
@@ -154,7 +143,7 @@
     self->min = aMax;
   }
   
-  [self update];
+  [self setNeedsDisplay];
 }
 
 - (void)setValue:(float)aValue {
@@ -171,7 +160,7 @@
   self->value = aValue;
   
   [self sendActionsForControlEvents:UIControlEventValueChanged];
-  [self update];
+  [self setNeedsDisplay];
 }
 
 - (float)value {
@@ -189,29 +178,18 @@
   
   self->stars = aStars;
   
-  for (UIImageView *image in self.imageViews) {
-    [image removeFromSuperview];
-  }
-  [self.imageViews removeAllObjects];
-  
-  for (int i = 0; i < aStars; i++) {
-    UIImageView *image = [[[UIImageView alloc] init] autorelease];
-    [self addSubview:image];
-    [self.imageViews addObject:image];
-  }
-  
-  [self update];
+  [self setNeedsDisplay];
 }
 
 - (void)setIntegerValue:(BOOL)isIntegerValue {
   self->integerValue = isIntegerValue;
-  [self update];
+  [self setNeedsDisplay];
 }
 
 - (void)setEmptyImage:(UIImage *)aImage {
   [self->emptyImage release];
   self->emptyImage = [aImage retain];
-  [self update];
+  [self setNeedsDisplay];
 }
 
 - (UIImage *)emptyImage {
@@ -221,7 +199,7 @@
 - (void)setHalfImage:(UIImage *)aImage {
   [self->halfImage release];
   self->halfImage = [aImage retain];
-  [self update];
+  [self setNeedsDisplay];
 }
 
 - (UIImage *)halfImage {
@@ -231,7 +209,7 @@
 - (void)setFullImage:(UIImage *)aImage {
   [self->fullImage release];
   self->fullImage = [aImage retain];
-  [self update];
+  [self setNeedsDisplay];
 }
 
 - (UIImage *)fullImage {
