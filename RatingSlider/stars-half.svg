@@ -15,7 +15,7 @@
    id="svg2870"
    version="1.1"
    inkscape:version="0.48.0 r9654"
-   sodipodi:docname="stars-full.svg"
+   sodipodi:docname="stars-half.svg"
    inkscape:export-filename="/home/mattias/work/slippy/star-empty.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
@@ -28,7 +28,7 @@
          offset="0"
          id="stop5479" />
       <stop
-         style="stop-color:#fffe00;stop-opacity:0.59829062;"
+         style="stop-color:#fffe00;stop-opacity:1;"
          offset="1"
          id="stop5481" />
     </linearGradient>
@@ -89,7 +89,7 @@
        y1="2.9362531"
        x2="36.918644"
        y2="8.2974653"
-       gradientTransform="matrix(0.13582939,0.53131406,-0.50692222,0.14236516,6.5608958,-9.8353)" />
+       gradientTransform="matrix(0.12981869,0.50780245,-0.48448999,0.13606524,6.6040411,1028.2327)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -99,15 +99,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="22.616366"
-     inkscape:cx="10.927413"
+     inkscape:cx="5.4160328"
      inkscape:cy="6.2496887"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1025"
      inkscape:window-height="866"
-     inkscape:window-x="157"
-     inkscape:window-y="64"
+     inkscape:window-x="188"
+     inkscape:window-y="30"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata2875">
@@ -117,7 +117,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -127,7 +127,7 @@
      id="layer1"
      transform="translate(0,-1037.3622)">
     <path
-       transform="matrix(0.17298253,0.67664332,-0.64557961,0.18130602,6.5359467,1022.7677)"
+       transform="matrix(0.16532774,0.64670063,-0.61701155,0.1732829,6.5801961,1023.6842)"
        d="m 39.111747,16.131805 -6.985864,-4.856596 -6.547905,5.432656 2.460147,-8.1447224 -7.190177,-4.5486452 8.506318,-0.1771186 2.104132,-8.2438734 2.797046,8.0352566 8.490602,-0.5463487 -6.777648,5.1431803 z"
        inkscape:randomized="0"
        inkscape:rounded="0"
@@ -143,14 +143,14 @@
        style="opacity:0.35775865;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
        sodipodi:type="star" />
     <path
-       style="opacity:0.57327588;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       d="M 7.84375 2.09375 L 6.53125 6.59375 L 2.03125 6.4375 L 5.6875 9.15625 L 4.1875 13.59375 L 7.78125 10.78125 L 7.96875 10.9375 L 7.96875 2.5625 L 7.84375 2.09375 z "
-       transform="translate(0,1037.3622)"
-       id="path5467" />
-    <path
        style="fill:url(#linearGradient5493);fill-opacity:1;fill-rule:nonzero;stroke:none"
-       d="M 7.3125 1.90625 L 6.03125 6.28125 L 1.5625 6.125 L 5.21875 8.84375 L 3.6875 13.25 L 7.28125 10.4375 L 7.3125 10.46875 L 7.3125 1.90625 z "
-       transform="translate(0,1037.3622)"
-       id="path2880-7" />
+       d="m 7.3223855,1039.4548 -1.2245524,4.1813 -4.2709997,-0.1493 3.4944542,2.5984 -1.4634893,4.2113 3.43472,-2.688 0.029866,0.029 0,-8.1835 z"
+       id="path2880-7"
+       inkscape:connector-curvature="0" />
+    <path
+       style="opacity:0.25;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 7.8723858,1039.7184 -1.2544195,4.3009 -4.3008668,-0.1494 3.4944544,2.5985 -1.4336223,4.2412 3.43472,-2.688 0.1792028,0.1492 0,-8.0043 -0.1194686,-0.4481 z"
+       id="path5467"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>

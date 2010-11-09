@@ -28,7 +28,7 @@
          offset="0"
          id="stop5479" />
       <stop
-         style="stop-color:#fffe00;stop-opacity:0.59829062;"
+         style="stop-color:#fffe00;stop-opacity:1;"
          offset="1"
          id="stop5481" />
     </linearGradient>
@@ -89,15 +89,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="15.989881"
-     inkscape:cx="10.927112"
+     inkscape:cx="5.1135232"
      inkscape:cy="6.2495164"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1025"
      inkscape:window-height="866"
-     inkscape:window-x="144"
-     inkscape:window-y="59"
+     inkscape:window-x="209"
+     inkscape:window-y="60"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata2875">
@@ -117,7 +117,7 @@
      id="layer1"
      transform="translate(0,-1037.3622)">
     <path
-       transform="matrix(0.17298253,0.67664332,-0.64557961,0.18130602,6.5359467,1022.7677)"
+       transform="matrix(0.16532774,0.64670063,-0.61701155,0.1732829,6.5801961,1023.6842)"
        d="m 39.111747,16.131805 -6.985864,-4.856596 -6.547905,5.432656 2.460147,-8.1447224 -7.190177,-4.5486452 8.506318,-0.1771186 2.104132,-8.2438734 2.797046,8.0352566 8.490602,-0.5463487 -6.777648,5.1431803 z"
        inkscape:randomized="0"
        inkscape:rounded="0"
@@ -134,22 +134,6 @@
        sodipodi:type="star" />
     <path
        sodipodi:type="star"
-       style="opacity:0.57327588;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       id="path5467"
-       sodipodi:sides="5"
-       sodipodi:cx="31.948423"
-       sodipodi:cy="7.1060171"
-       sodipodi:r1="11.522936"
-       sodipodi:r2="4.1729665"
-       sodipodi:arg1="0.89993886"
-       sodipodi:arg2="1.5282574"
-       inkscape:flatsided="false"
-       inkscape:rounded="0"
-       inkscape:randomized="0"
-       d="m 39.111747,16.131805 -6.985864,-4.856596 -6.547905,5.432656 2.460147,-8.1447224 -7.190177,-4.5486452 8.506318,-0.1771186 2.104132,-8.2438734 2.797046,8.0352566 8.490602,-0.5463487 -6.777648,5.1431803 z"
-       transform="matrix(0.13649977,0.5339363,-0.50942406,0.14306779,7.0569944,1027.7591)" />
-    <path
-       sodipodi:type="star"
        style="fill:url(#linearGradient5483);fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="path2880-7"
        sodipodi:sides="5"
@@ -163,6 +147,22 @@
        inkscape:rounded="0"
        inkscape:randomized="0"
        d="m 39.111747,16.131805 -6.985864,-4.856596 -6.547905,5.432656 2.460147,-8.1447224 -7.190177,-4.5486452 8.506318,-0.1771186 2.104132,-8.2438734 2.797046,8.0352566 8.490602,-0.5463487 -6.777648,5.1431803 z"
-       transform="matrix(0.13582939,0.53131406,-0.50692222,0.14236516,6.5608958,1027.5269)" />
+       transform="matrix(0.12981869,0.50780246,-0.48449,0.13606525,6.6040412,1028.2328)" />
+    <path
+       sodipodi:type="star"
+       style="opacity:0.25;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path5467"
+       sodipodi:sides="5"
+       sodipodi:cx="31.948423"
+       sodipodi:cy="7.1060171"
+       sodipodi:r1="11.522936"
+       sodipodi:r2="4.1729665"
+       sodipodi:arg1="0.89993886"
+       sodipodi:arg2="1.5282574"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 39.111747,16.131805 -6.985864,-4.856596 -6.547905,5.432656 2.460147,-8.1447224 -7.190177,-4.5486452 8.506318,-0.1771186 2.104132,-8.2438734 2.797046,8.0352566 8.490602,-0.5463487 -6.777648,5.1431803 z"
+       transform="matrix(0.13045941,0.51030866,-0.48688113,0.13673678,7.0781865,1028.5144)" />
   </g>
 </svg>

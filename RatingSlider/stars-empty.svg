@@ -15,7 +15,7 @@
    id="svg2870"
    version="1.1"
    inkscape:version="0.48.0 r9654"
-   sodipodi:docname="stars-half.svg"
+   sodipodi:docname="stars-empty.svg"
    inkscape:export-filename="/home/mattias/work/slippy/star-empty.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
@@ -99,7 +99,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="22.616366"
-     inkscape:cx="10.927413"
+     inkscape:cx="5.3783341"
      inkscape:cy="6.2496887"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -117,7 +117,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -127,7 +127,7 @@
      id="layer1"
      transform="translate(0,-1037.3622)">
     <path
-       transform="matrix(0.17298253,0.67664332,-0.64557961,0.18130602,6.5359467,1022.7677)"
+       transform="matrix(0.16532774,0.64670063,-0.61701155,0.1732829,6.5801961,1023.6842)"
        d="m 39.111747,16.131805 -6.985864,-4.856596 -6.547905,5.432656 2.460147,-8.1447224 -7.190177,-4.5486452 8.506318,-0.1771186 2.104132,-8.2438734 2.797046,8.0352566 8.490602,-0.5463487 -6.777648,5.1431803 z"
        inkscape:randomized="0"
        inkscape:rounded="0"
