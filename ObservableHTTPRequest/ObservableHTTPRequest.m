@@ -273,7 +273,7 @@ didReceiveResponse:(NSURLResponse *)response {
    forHTTPHeaderField:@"Content-Type"];
   }
   
-  // context is used with building dict so make sure it's not nil 
+  // context is used when building dict so make sure it's not nil 
   if (context == nil) {
     context = [NSNull null];
   }
