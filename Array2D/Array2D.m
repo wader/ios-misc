@@ -65,7 +65,7 @@
   NSMutableArray *objects = [NSMutableArray array];
   
   id o;
-  while (o = [self nextObject]) {
+  while ((o = [self nextObject])) {
     [objects addObject:o];
   }
   
