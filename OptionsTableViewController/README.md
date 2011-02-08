@@ -13,9 +13,6 @@ Example usage
         }
 
         - (void)touchOptions:(id)sender {
-          UINavigationController *nav = [[UINavigationController alloc] init];
-          [window addSubview:nav.view];
-          
           UINavigationController *modalController;
           modalController = [[[UINavigationController alloc]
                               initWithRootViewController:
