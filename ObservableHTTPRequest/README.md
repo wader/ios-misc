@@ -8,7 +8,7 @@ Example usage
 -------------
 
 See
-[ObservableHTTPRequestTest.m](ObservableHTTPRequestTest.m)
+[ObservableHTTPRequestTest.m](/wader/ios-misc/blob/master/ObservableHTTPRequest/ObservableHTTPRequestTest.m)
 and
-[ObservableHTTPRequestTest.h](ObservableHTTPRequestTest.h)
+[ObservableHTTPRequestTest.h](/wader/ios-misc/blob/master/ObservableHTTPRequest/ObservableHTTPRequestTest.h)
 for example usage.

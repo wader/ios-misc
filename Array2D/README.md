@@ -8,7 +8,7 @@ Example usage
 -------------
 
 See
-[Array2DTest.m](Array2DTest.m)
+[Array2DTest.m](/wader/ios-misc/blob/master/Array2D/Array2DTest.m)
 and
-[Array2DTest.h](Array2DTest.h)
+[Array2DTest.h](/wader/ios-misc/blob/master/Array2D/Array2DTest.h)
 for example usage.

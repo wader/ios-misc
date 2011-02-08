@@ -9,7 +9,7 @@ Example usage
 -------------
 
 See
-[AudioPlayerTest.m](AudioPlayerTest.m)
+[AudioPlayerTest.m](/wader/ios-misc/blob/master/AudioPlayer/AudioPlayerTest.m)
 and
-[AudioPlayerTest.m](AudioPlayerTest.h)
+[AudioPlayerTest.m](/wader/ios-misc/blob/master/AudioPlayer/AudioPlayerTest.h)
 for example usage.

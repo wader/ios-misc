@@ -1,16 +1,16 @@
 SectionsViewController
 ======================
 
-A simplified UITableViewController interface usefull for simple or static table layouts
+A simplified UITableViewController interface usefull for simple or static table layouts.
 
 Example usage
 -------------
 
 See
 
-[SectionsViewControllerTest.m](SectionsViewControllerTest.m)
+[SectionsViewControllerTest.m](/wader/ios-misc/blob/master/SectionsViewController/SectionsViewControllerTest.m)
 and
-[SectionsViewControllerTest.h](SectionsViewControllerTest.h)
+[SectionsViewControllerTest.h](/wader/ios-misc/blob/master/SectionsViewController/SectionsViewControllerTest.h)
 for example usage.
 
 Will look like this:

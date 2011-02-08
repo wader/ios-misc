@@ -10,9 +10,9 @@ Example usage
 -------------
 
 See
-[RatingSliderTestView.m](RatingSliderTestView.m)
+[RatingSliderTestView.m](/wader/ios-misc/blob/master/RatingSlider/RatingSliderTestView.m)
 and
-[RatingSliderTestView.h](RatingSliderTestView.h)
+[RatingSliderTestView.h](/wader/ios-misc/blob/master/RatingSlider/RatingSliderTestView.h)
 for example usage.
 
 Slider in `RatingSliderTestView` will look like this:
