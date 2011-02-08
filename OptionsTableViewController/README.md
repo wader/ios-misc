@@ -8,34 +8,34 @@ Example usage
 -------------
         #import "OptionsTableViewController.h"
 
-	- (void)touchOptionsChange:(id)key {
-	  NSLog(@"%@", key);
-	}
+        - (void)touchOptionsChange:(id)key {
+          NSLog(@"%@", key);
+        }
 
-	- (void)touchOptions:(id)sender {
-	  UINavigationController *nav = [[UINavigationController alloc] init];
-	  [window addSubview:nav.view];
-	  
-	  UINavigationController *modalController;
-	  modalController = [[[UINavigationController alloc]
-			      initWithRootViewController:
-			      [OptionsTableViewController
-			       optionsTableWithTitle:@"Options"
-			       options:[NSMutableDictionary
-					dictionaryWithObjectsAndKeys:
-					@"First", [NSNumber numberWithInt:1],
-					@"Second", [NSNumber numberWithInt:2],
-					@"Third", [NSNumber numberWithInt:3],
-					nil]
-			       selectedKey:[NSNumber numberWithInt:2]
-			       target:self
-			       selector:@selector(touchOptionsChange:)]]
-			     autorelease];
-	  modalController.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
-	  [self presentModalViewController:modalController
-	  			  animated:YES];
-	  
-	}
+        - (void)touchOptions:(id)sender {
+          UINavigationController *nav = [[UINavigationController alloc] init];
+          [window addSubview:nav.view];
+          
+          UINavigationController *modalController;
+          modalController = [[[UINavigationController alloc]
+                              initWithRootViewController:
+                              [OptionsTableViewController
+                               optionsTableWithTitle:@"Options"
+                               options:[NSMutableDictionary
+                                        dictionaryWithObjectsAndKeys:
+                                        @"First", [NSNumber numberWithInt:1],
+                                        @"Second", [NSNumber numberWithInt:2],
+                                        @"Third", [NSNumber numberWithInt:3],
+                                        nil]
+                               selectedKey:[NSNumber numberWithInt:2]
+                               target:self
+                               selector:@selector(touchOptionsChange:)]]
+                             autorelease];
+          modalController.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
+          [self presentModalViewController:modalController
+                                  animated:YES];
+          
+        }
 
 Modal view will look like this:
 
