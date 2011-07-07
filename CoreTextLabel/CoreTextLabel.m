@@ -53,6 +53,7 @@
   
   self.userInteractionEnabled = NO;
   self.opaque = NO;
+  self.contentMode = UIViewContentModeRedraw;
   
   self.text = @"";
   self.textColor = [UIColor blackColor];
