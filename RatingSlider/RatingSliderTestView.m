@@ -16,7 +16,8 @@
   }
   
   RatingSlider *slider = [[[RatingSlider alloc] init] autorelease];
-  slider.frame = CGRectMake(0, 0, 15 * 5, 40);
+  slider.bounds = CGRectMake(0, 0, 15 * 5, 40);
+  slider.center = CGPointMake(frame.size.width / 2, 50);
   slider.emptyImage = [UIImage imageNamed:@"stars-empty.png"];
   slider.halfImage = [UIImage imageNamed:@"stars-half.png"];
   slider.fullImage = [UIImage imageNamed:@"stars-full.png"];
