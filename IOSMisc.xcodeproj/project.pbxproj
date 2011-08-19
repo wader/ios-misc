@@ -40,6 +40,25 @@
 		CD764EF013D349F000204E49 /* stars-empty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD764EEA13D349F000204E49 /* stars-empty@2x.png */; };
 		CD764EF113D349F000204E49 /* stars-empty.png in Resources */ = {isa = PBXBuildFile; fileRef = CD764EEB13D349F000204E49 /* stars-empty.png */; };
 		CD764EF413D34B1B00204E49 /* IOSMiscDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD764EF313D34B1B00204E49 /* IOSMiscDemoController.m */; };
+		CD7B481413F2CCF700D7D678 /* PagedScrollViewTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7B481313F2CCF700D7D678 /* PagedScrollViewTestController.m */; };
+		CD7B482313F2E80500D7D678 /* WebNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7B482213F2E80500D7D678 /* WebNavigationViewController.m */; };
+		CD7B482513F2E89800D7D678 /* test1.html in Resources */ = {isa = PBXBuildFile; fileRef = CD7B482413F2E89800D7D678 /* test1.html */; };
+		CD7B482713F2E8CE00D7D678 /* test2.html in Resources */ = {isa = PBXBuildFile; fileRef = CD7B482613F2E8CE00D7D678 /* test2.html */; };
+		CD7B482A13F9356800D7D678 /* PagedScrollViewTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7B482913F9356700D7D678 /* PagedScrollViewTestView.m */; };
+		CD8BEE2E13DADF90002FC2F9 /* NSString+colorValue.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8BEE2D13DADF90002FC2F9 /* NSString+colorValue.m */; };
+		CD8BEE5913DAE48A002FC2F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD252EFA13C71DB9002A0AEB /* UIKit.framework */; };
+		CD8BEE5A13DAE48A002FC2F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD252EFC13C71DB9002A0AEB /* Foundation.framework */; };
+		CD8BEE5B13DAE48A002FC2F9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD252EFE13C71DB9002A0AEB /* CoreGraphics.framework */; };
+		CD8BEE6D13DAE558002FC2F9 /* NSString+colorValueTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8BEE6B13DAE541002FC2F9 /* NSString+colorValueTest.m */; };
+		CD8BEE6E13DAE631002FC2F9 /* NSString+colorValue.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8BEE2D13DADF90002FC2F9 /* NSString+colorValue.m */; };
+		CD8BEE7113DAE72C002FC2F9 /* NSString+digestTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8BEE7013DAE72C002FC2F9 /* NSString+digestTest.m */; };
+		CD9DC2C713F1884400B9E7EF /* NSString+digest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD764E6E13D31C2C00204E49 /* NSString+digest.m */; };
+		CDF4AD5E13F1A10800729A97 /* UIColor+hexString.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF4AD5B13F1A10800729A97 /* UIColor+hexString.m */; };
+		CDF4AD6013F1A10E00729A97 /* UIColor+hexString.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF4AD5B13F1A10800729A97 /* UIColor+hexString.m */; };
+		CDF4AD6113F1A11100729A97 /* UIColor+hexStringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF4AD5D13F1A10800729A97 /* UIColor+hexStringTest.m */; };
+		CDF4AD6D13F29F6900729A97 /* NSArray+random.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF4AD6413F29F6800729A97 /* NSArray+random.m */; };
+		CDF4AD6E13F29F6900729A97 /* PagedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF4AD6713F29F6800729A97 /* PagedScrollView.m */; };
+		CDF4AD6F13F29F6900729A97 /* PagedScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF4AD6913F29F6800729A97 /* PagedScrollViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -99,6 +118,35 @@
 		CD764EEB13D349F000204E49 /* stars-empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stars-empty.png"; sourceTree = "<group>"; };
 		CD764EF213D34B1B00204E49 /* IOSMiscDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSMiscDemoController.h; sourceTree = "<group>"; };
 		CD764EF313D34B1B00204E49 /* IOSMiscDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOSMiscDemoController.m; sourceTree = "<group>"; };
+		CD7B481213F2CCF700D7D678 /* PagedScrollViewTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagedScrollViewTestController.h; sourceTree = "<group>"; };
+		CD7B481313F2CCF700D7D678 /* PagedScrollViewTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagedScrollViewTestController.m; sourceTree = "<group>"; };
+		CD7B482113F2E80500D7D678 /* WebNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebNavigationViewController.h; sourceTree = "<group>"; };
+		CD7B482213F2E80500D7D678 /* WebNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebNavigationViewController.m; sourceTree = "<group>"; };
+		CD7B482413F2E89800D7D678 /* test1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test1.html; sourceTree = "<group>"; };
+		CD7B482613F2E8CE00D7D678 /* test2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test2.html; sourceTree = "<group>"; };
+		CD7B482813F9356700D7D678 /* PagedScrollViewTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagedScrollViewTestView.h; sourceTree = "<group>"; };
+		CD7B482913F9356700D7D678 /* PagedScrollViewTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagedScrollViewTestView.m; sourceTree = "<group>"; };
+		CD8BEE2C13DADF90002FC2F9 /* NSString+colorValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+colorValue.h"; sourceTree = "<group>"; };
+		CD8BEE2D13DADF90002FC2F9 /* NSString+colorValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+colorValue.m"; sourceTree = "<group>"; };
+		CD8BEE3E13DAE30A002FC2F9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CD8BEE4113DAE30B002FC2F9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CD8BEE4213DAE30B002FC2F9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CD8BEE4313DAE30B002FC2F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD8BEE5813DAE48A002FC2F9 /* IOSMiscTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSMiscTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8BEE6A13DAE541002FC2F9 /* NSString+colorValueTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+colorValueTest.h"; sourceTree = "<group>"; };
+		CD8BEE6B13DAE541002FC2F9 /* NSString+colorValueTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+colorValueTest.m"; sourceTree = "<group>"; };
+		CD8BEE6F13DAE72C002FC2F9 /* NSString+digestTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+digestTest.h"; sourceTree = "<group>"; };
+		CD8BEE7013DAE72C002FC2F9 /* NSString+digestTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+digestTest.m"; sourceTree = "<group>"; };
+		CDF4AD5A13F1A10800729A97 /* UIColor+hexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+hexString.h"; sourceTree = "<group>"; };
+		CDF4AD5B13F1A10800729A97 /* UIColor+hexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+hexString.m"; sourceTree = "<group>"; };
+		CDF4AD5C13F1A10800729A97 /* UIColor+hexStringTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+hexStringTest.h"; sourceTree = "<group>"; };
+		CDF4AD5D13F1A10800729A97 /* UIColor+hexStringTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+hexStringTest.m"; sourceTree = "<group>"; };
+		CDF4AD6313F29F6800729A97 /* NSArray+random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+random.h"; sourceTree = "<group>"; };
+		CDF4AD6413F29F6800729A97 /* NSArray+random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+random.m"; sourceTree = "<group>"; };
+		CDF4AD6613F29F6800729A97 /* PagedScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagedScrollView.h; sourceTree = "<group>"; };
+		CDF4AD6713F29F6800729A97 /* PagedScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagedScrollView.m; sourceTree = "<group>"; };
+		CDF4AD6813F29F6800729A97 /* PagedScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagedScrollViewController.h; sourceTree = "<group>"; };
+		CDF4AD6913F29F6800729A97 /* PagedScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagedScrollViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,12 +162,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CD8BEE5413DAE48A002FC2F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8BEE5913DAE48A002FC2F9 /* UIKit.framework in Frameworks */,
+				CD8BEE5A13DAE48A002FC2F9 /* Foundation.framework in Frameworks */,
+				CD8BEE5B13DAE48A002FC2F9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		CD252EEB13C71DB8002A0AEB = {
 			isa = PBXGroup;
 			children = (
+				CD7B482013F2E80500D7D678 /* WebNavigationViewController */,
+				CDF4AD6213F29F6800729A97 /* NSArray+random */,
+				CDF4AD6513F29F6800729A97 /* PagedScrollView */,
+				CDF4AD5913F1A10800729A97 /* UIColor+hexString */,
+				CD8BEE2B13DADF90002FC2F9 /* NSString+colorValue */,
 				CD764E6C13D31C2C00204E49 /* NSString+digest */,
 				CD764E7013D31C2C00204E49 /* CoreTextLabel */,
 				CD764E7713D31C2C00204E49 /* GradientLabel */,
@@ -139,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				CD252EF613C71DB9002A0AEB /* IOSMisc.app */,
+				CD8BEE5813DAE48A002FC2F9 /* IOSMiscTest.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,6 +215,8 @@
 				CD252EFA13C71DB9002A0AEB /* UIKit.framework */,
 				CD252EFC13C71DB9002A0AEB /* Foundation.framework */,
 				CD252EFE13C71DB9002A0AEB /* CoreGraphics.framework */,
+				CD8BEE3E13DAE30A002FC2F9 /* Cocoa.framework */,
+				CD8BEE4013DAE30B002FC2F9 /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -185,6 +251,8 @@
 			children = (
 				CD764E6D13D31C2C00204E49 /* NSString+digest.h */,
 				CD764E6E13D31C2C00204E49 /* NSString+digest.m */,
+				CD8BEE6F13DAE72C002FC2F9 /* NSString+digestTest.h */,
+				CD8BEE7013DAE72C002FC2F9 /* NSString+digestTest.m */,
 			);
 			path = "NSString+digest";
 			sourceTree = "<group>";
@@ -283,6 +351,73 @@
 			path = Array2D;
 			sourceTree = "<group>";
 		};
+		CD7B482013F2E80500D7D678 /* WebNavigationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CD7B482113F2E80500D7D678 /* WebNavigationViewController.h */,
+				CD7B482213F2E80500D7D678 /* WebNavigationViewController.m */,
+				CD7B482413F2E89800D7D678 /* test1.html */,
+				CD7B482613F2E8CE00D7D678 /* test2.html */,
+			);
+			path = WebNavigationViewController;
+			sourceTree = "<group>";
+		};
+		CD8BEE2B13DADF90002FC2F9 /* NSString+colorValue */ = {
+			isa = PBXGroup;
+			children = (
+				CD8BEE2C13DADF90002FC2F9 /* NSString+colorValue.h */,
+				CD8BEE2D13DADF90002FC2F9 /* NSString+colorValue.m */,
+				CD8BEE6A13DAE541002FC2F9 /* NSString+colorValueTest.h */,
+				CD8BEE6B13DAE541002FC2F9 /* NSString+colorValueTest.m */,
+			);
+			path = "NSString+colorValue";
+			sourceTree = "<group>";
+		};
+		CD8BEE4013DAE30B002FC2F9 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD8BEE4113DAE30B002FC2F9 /* AppKit.framework */,
+				CD8BEE4213DAE30B002FC2F9 /* CoreData.framework */,
+				CD8BEE4313DAE30B002FC2F9 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CDF4AD5913F1A10800729A97 /* UIColor+hexString */ = {
+			isa = PBXGroup;
+			children = (
+				CDF4AD5A13F1A10800729A97 /* UIColor+hexString.h */,
+				CDF4AD5B13F1A10800729A97 /* UIColor+hexString.m */,
+				CDF4AD5C13F1A10800729A97 /* UIColor+hexStringTest.h */,
+				CDF4AD5D13F1A10800729A97 /* UIColor+hexStringTest.m */,
+			);
+			path = "UIColor+hexString";
+			sourceTree = "<group>";
+		};
+		CDF4AD6213F29F6800729A97 /* NSArray+random */ = {
+			isa = PBXGroup;
+			children = (
+				CDF4AD6313F29F6800729A97 /* NSArray+random.h */,
+				CDF4AD6413F29F6800729A97 /* NSArray+random.m */,
+			);
+			path = "NSArray+random";
+			sourceTree = "<group>";
+		};
+		CDF4AD6513F29F6800729A97 /* PagedScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				CDF4AD6613F29F6800729A97 /* PagedScrollView.h */,
+				CDF4AD6713F29F6800729A97 /* PagedScrollView.m */,
+				CDF4AD6813F29F6800729A97 /* PagedScrollViewController.h */,
+				CDF4AD6913F29F6800729A97 /* PagedScrollViewController.m */,
+				CD7B481213F2CCF700D7D678 /* PagedScrollViewTestController.h */,
+				CD7B481313F2CCF700D7D678 /* PagedScrollViewTestController.m */,
+				CD7B482813F9356700D7D678 /* PagedScrollViewTestView.h */,
+				CD7B482913F9356700D7D678 /* PagedScrollViewTestView.m */,
+			);
+			path = PagedScrollView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -303,6 +438,24 @@
 			productReference = CD252EF613C71DB9002A0AEB /* IOSMisc.app */;
 			productType = "com.apple.product-type.application";
 		};
+		CD8BEE5713DAE48A002FC2F9 /* IOSMiscTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD8BEE6713DAE48A002FC2F9 /* Build configuration list for PBXNativeTarget "IOSMiscTest" */;
+			buildPhases = (
+				CD8BEE5313DAE48A002FC2F9 /* Sources */,
+				CD8BEE5413DAE48A002FC2F9 /* Frameworks */,
+				CD8BEE5513DAE48A002FC2F9 /* Resources */,
+				CD8BEE5613DAE48A002FC2F9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOSMiscTest;
+			productName = IOSMiscTest;
+			productReference = CD8BEE5813DAE48A002FC2F9 /* IOSMiscTest.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -321,6 +474,7 @@
 			projectRoot = "";
 			targets = (
 				CD252EF513C71DB9002A0AEB /* IOSMisc */,
+				CD8BEE5713DAE48A002FC2F9 /* IOSMiscTest */,
 			);
 		};
 /* End PBXProject section */
@@ -337,10 +491,35 @@
 				CD764EEF13D349F000204E49 /* stars-full.png in Resources */,
 				CD764EF013D349F000204E49 /* stars-empty@2x.png in Resources */,
 				CD764EF113D349F000204E49 /* stars-empty.png in Resources */,
+				CD7B482513F2E89800D7D678 /* test1.html in Resources */,
+				CD7B482713F2E8CE00D7D678 /* test2.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8BEE5513DAE48A002FC2F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CD8BEE5613DAE48A002FC2F9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CD252EF213C71DB9002A0AEB /* Sources */ = {
@@ -368,6 +547,27 @@
 				CD764ED413D31C2C00204E49 /* Array2DTest.m in Sources */,
 				CD764EE513D33C9300204E49 /* IOSMiscSections.m in Sources */,
 				CD764EF413D34B1B00204E49 /* IOSMiscDemoController.m in Sources */,
+				CD8BEE2E13DADF90002FC2F9 /* NSString+colorValue.m in Sources */,
+				CDF4AD5E13F1A10800729A97 /* UIColor+hexString.m in Sources */,
+				CDF4AD6D13F29F6900729A97 /* NSArray+random.m in Sources */,
+				CDF4AD6E13F29F6900729A97 /* PagedScrollView.m in Sources */,
+				CDF4AD6F13F29F6900729A97 /* PagedScrollViewController.m in Sources */,
+				CD7B481413F2CCF700D7D678 /* PagedScrollViewTestController.m in Sources */,
+				CD7B482313F2E80500D7D678 /* WebNavigationViewController.m in Sources */,
+				CD7B482A13F9356800D7D678 /* PagedScrollViewTestView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8BEE5313DAE48A002FC2F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8BEE6D13DAE558002FC2F9 /* NSString+colorValueTest.m in Sources */,
+				CD8BEE6E13DAE631002FC2F9 /* NSString+colorValue.m in Sources */,
+				CD8BEE7113DAE72C002FC2F9 /* NSString+digestTest.m in Sources */,
+				CD9DC2C713F1884400B9E7EF /* NSString+digest.m in Sources */,
+				CDF4AD6013F1A10E00729A97 /* UIColor+hexString.m in Sources */,
+				CDF4AD6113F1A11100729A97 /* UIColor+hexStringTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +645,46 @@
 			};
 			name = Release;
 		};
+		CD8BEE6813DAE48A002FC2F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IOSMisc/IOSMisc-Prefix.pch";
+				INFOPLIST_FILE = "IOSMisc/IOSMisc-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CD8BEE6913DAE48A002FC2F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IOSMisc/IOSMisc-Prefix.pch";
+				INFOPLIST_FILE = "IOSMisc/IOSMisc-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -462,6 +702,15 @@
 			buildConfigurations = (
 				CD252F1813C71DB9002A0AEB /* Debug */,
 				CD252F1913C71DB9002A0AEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD8BEE6713DAE48A002FC2F9 /* Build configuration list for PBXNativeTarget "IOSMiscTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8BEE6813DAE48A002FC2F9 /* Debug */,
+				CD8BEE6913DAE48A002FC2F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
