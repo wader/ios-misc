@@ -7,10 +7,10 @@ WebNavigationViewController non-local opens in Mobile safari.
 Example usage
 -------------
   
-        [self.navigationController
-         [[[WebNavigationViewController alloc] initWithFile:@"test1.html"]
-          autorelease]
-         animated:YES];
+    [self.navigationController
+     [[[WebNavigationViewController alloc] initWithFile:@"test1.html"]
+      autorelease]
+     animated:YES];
 
 Looks like:
 
