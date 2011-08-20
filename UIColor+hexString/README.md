@@ -7,10 +7,10 @@ only included if not #ff.
 Example usage
 -------------
 
-        #import "UIColor+hexString.h"
+    #import "UIColor+hexString.h"
 
-        NSLog(@"color %@", [[UIColor redColor] hexString]]);
+    NSLog(@"color %@", [[UIColor redColor] hexString]]);
 
 Will output:
 
-        color #ff0000
+    color #ff0000
