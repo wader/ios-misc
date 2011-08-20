@@ -9,6 +9,6 @@ default color if the string is invalid.
 Example usage
 -------------
 
-        #import "NSString+colorValue.h"
+    #import "NSString+colorValue.h"
 
-        self.backgroundColor = ["#aabbccdd" colorValue];
+    self.backgroundColor = ["#aabbccdd" colorValue];
