@@ -6,6 +6,6 @@ Returns random object in array.
 Example usage
 -------------
 
-	#import "NSArray+random.h"
+    #import "NSArray+random.h"
         
-        NSLog(@"Random object %@", [someArray randomObject]);
+    NSLog(@"Random object %@", [someArray randomObject]);
