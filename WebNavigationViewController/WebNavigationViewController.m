@@ -101,15 +101,15 @@ navigationType:(UIWebViewNavigationType)inType {
       subView.hidden = YES;
   [self.view addSubview:webView];
   
+  NSString *filePath = [[[NSBundle mainBundle] resourcePath]
+                        stringByAppendingPathComponent:self.file];
   
-  NSString *html = [NSString stringWithContentsOfFile:
-                    [[[NSBundle mainBundle] resourcePath]
-                     stringByAppendingPathComponent:self.file]
+  NSString *html = [NSString stringWithContentsOfFile:filePath
                                              encoding:NSUTF8StringEncoding
                                                 error:NULL];
   [self.webView loadHTMLString:html
                        baseURL:[NSURL fileURLWithPath:
-                                [[NSBundle mainBundle] resourcePath]]];
+                                [filePath stringByDeletingLastPathComponent]]];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
