@@ -2,7 +2,6 @@
 #import "IOSMiscSections.h"
 
 @interface IOSMiscAppDelegate ()
-@property(nonatomic, retain) UIWindow *window;
 @property(nonatomic, retain) UINavigationController *controller;
 @end
 
