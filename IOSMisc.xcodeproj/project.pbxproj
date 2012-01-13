@@ -53,6 +53,9 @@
 		CD8BEE6E13DAE631002FC2F9 /* NSString+colorValue.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8BEE2D13DADF90002FC2F9 /* NSString+colorValue.m */; };
 		CD8BEE7113DAE72C002FC2F9 /* NSString+digestTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8BEE7013DAE72C002FC2F9 /* NSString+digestTest.m */; };
 		CD9DC2C713F1884400B9E7EF /* NSString+digest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD764E6E13D31C2C00204E49 /* NSString+digest.m */; };
+		CDDFF35A1450627A001F59EE /* NSObject+performSelectorWithArgsArray.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDFF3591450627A001F59EE /* NSObject+performSelectorWithArgsArray.m */; };
+		CDDFF35B1450627A001F59EE /* NSObject+performSelectorWithArgsArray.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDFF3591450627A001F59EE /* NSObject+performSelectorWithArgsArray.m */; };
+		CDDFF35E145062DE001F59EE /* NSObject+performSelectorWithArgsArrayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDFF35D145062DE001F59EE /* NSObject+performSelectorWithArgsArrayTest.m */; };
 		CDF4AD5E13F1A10800729A97 /* UIColor+hexString.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF4AD5B13F1A10800729A97 /* UIColor+hexString.m */; };
 		CDF4AD6013F1A10E00729A97 /* UIColor+hexString.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF4AD5B13F1A10800729A97 /* UIColor+hexString.m */; };
 		CDF4AD6113F1A11100729A97 /* UIColor+hexStringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF4AD5D13F1A10800729A97 /* UIColor+hexStringTest.m */; };
@@ -137,6 +140,10 @@
 		CD8BEE6B13DAE541002FC2F9 /* NSString+colorValueTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+colorValueTest.m"; sourceTree = "<group>"; };
 		CD8BEE6F13DAE72C002FC2F9 /* NSString+digestTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+digestTest.h"; sourceTree = "<group>"; };
 		CD8BEE7013DAE72C002FC2F9 /* NSString+digestTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+digestTest.m"; sourceTree = "<group>"; };
+		CDDFF3581450627A001F59EE /* NSObject+performSelectorWithArgsArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+performSelectorWithArgsArray.h"; sourceTree = "<group>"; };
+		CDDFF3591450627A001F59EE /* NSObject+performSelectorWithArgsArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+performSelectorWithArgsArray.m"; sourceTree = "<group>"; };
+		CDDFF35C145062DE001F59EE /* NSObject+performSelectorWithArgsArrayTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+performSelectorWithArgsArrayTest.h"; sourceTree = "<group>"; };
+		CDDFF35D145062DE001F59EE /* NSObject+performSelectorWithArgsArrayTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+performSelectorWithArgsArrayTest.m"; sourceTree = "<group>"; };
 		CDF4AD5A13F1A10800729A97 /* UIColor+hexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+hexString.h"; sourceTree = "<group>"; };
 		CDF4AD5B13F1A10800729A97 /* UIColor+hexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+hexString.m"; sourceTree = "<group>"; };
 		CDF4AD5C13F1A10800729A97 /* UIColor+hexStringTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+hexStringTest.h"; sourceTree = "<group>"; };
@@ -178,6 +185,7 @@
 		CD252EEB13C71DB8002A0AEB = {
 			isa = PBXGroup;
 			children = (
+				CDDFF35614506249001F59EE /* NSObject+performSelectorWithArgsArray */,
 				CD7B482013F2E80500D7D678 /* WebNavigationViewController */,
 				CDF4AD6213F29F6800729A97 /* NSArray+random */,
 				CDF4AD6513F29F6800729A97 /* PagedScrollView */,
@@ -379,8 +387,15 @@
 				CD8BEE4113DAE30B002FC2F9 /* AppKit.framework */,
 				CD8BEE4213DAE30B002FC2F9 /* CoreData.framework */,
 				CD8BEE4313DAE30B002FC2F9 /* Foundation.framework */,
+		CDDFF35614506249001F59EE /* NSObject+performSelectorWithArgsArray */ = {
+			isa = PBXGroup;
+			children = (
+				CDDFF3581450627A001F59EE /* NSObject+performSelectorWithArgsArray.h */,
+				CDDFF3591450627A001F59EE /* NSObject+performSelectorWithArgsArray.m */,
+				CDDFF35C145062DE001F59EE /* NSObject+performSelectorWithArgsArrayTest.h */,
+				CDDFF35D145062DE001F59EE /* NSObject+performSelectorWithArgsArrayTest.m */,
 			);
-			name = "Other Frameworks";
+			path = "NSObject+performSelectorWithArgsArray";
 			sourceTree = "<group>";
 		};
 		CDF4AD5913F1A10800729A97 /* UIColor+hexString */ = {
@@ -555,6 +570,7 @@
 				CD7B481413F2CCF700D7D678 /* PagedScrollViewTestController.m in Sources */,
 				CD7B482313F2E80500D7D678 /* WebNavigationViewController.m in Sources */,
 				CD7B482A13F9356800D7D678 /* PagedScrollViewTestView.m in Sources */,
+				CDDFF35A1450627A001F59EE /* NSObject+performSelectorWithArgsArray.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,6 +584,8 @@
 				CD9DC2C713F1884400B9E7EF /* NSString+digest.m in Sources */,
 				CDF4AD6013F1A10E00729A97 /* UIColor+hexString.m in Sources */,
 				CDF4AD6113F1A11100729A97 /* UIColor+hexStringTest.m in Sources */,
+				CDDFF35B1450627A001F59EE /* NSObject+performSelectorWithArgsArray.m in Sources */,
+				CDDFF35E145062DE001F59EE /* NSObject+performSelectorWithArgsArrayTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
