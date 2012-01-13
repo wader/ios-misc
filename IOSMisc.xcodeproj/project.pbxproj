@@ -56,6 +56,7 @@
 		CDDFF35A1450627A001F59EE /* NSObject+performSelectorWithArgsArray.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDFF3591450627A001F59EE /* NSObject+performSelectorWithArgsArray.m */; };
 		CDDFF35B1450627A001F59EE /* NSObject+performSelectorWithArgsArray.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDFF3591450627A001F59EE /* NSObject+performSelectorWithArgsArray.m */; };
 		CDDFF35E145062DE001F59EE /* NSObject+performSelectorWithArgsArrayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDFF35D145062DE001F59EE /* NSObject+performSelectorWithArgsArrayTest.m */; };
+		CDDFF36314542C22001F59EE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDDFF36214542C22001F59EE /* QuartzCore.framework */; };
 		CDF4AD5E13F1A10800729A97 /* UIColor+hexString.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF4AD5B13F1A10800729A97 /* UIColor+hexString.m */; };
 		CDF4AD6013F1A10E00729A97 /* UIColor+hexString.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF4AD5B13F1A10800729A97 /* UIColor+hexString.m */; };
 		CDF4AD6113F1A11100729A97 /* UIColor+hexStringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF4AD5D13F1A10800729A97 /* UIColor+hexStringTest.m */; };
@@ -127,10 +128,6 @@
 		CD7B482613F2E8CE00D7D678 /* test2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test2.html; sourceTree = "<group>"; };
 		CD8BEE2C13DADF90002FC2F9 /* NSString+colorValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+colorValue.h"; sourceTree = "<group>"; };
 		CD8BEE2D13DADF90002FC2F9 /* NSString+colorValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+colorValue.m"; sourceTree = "<group>"; };
-		CD8BEE3E13DAE30A002FC2F9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		CD8BEE4113DAE30B002FC2F9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		CD8BEE4213DAE30B002FC2F9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		CD8BEE4313DAE30B002FC2F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CD8BEE5813DAE48A002FC2F9 /* IOSMiscTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSMiscTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD8BEE6A13DAE541002FC2F9 /* NSString+colorValueTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+colorValueTest.h"; sourceTree = "<group>"; };
 		CD8BEE6B13DAE541002FC2F9 /* NSString+colorValueTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+colorValueTest.m"; sourceTree = "<group>"; };
@@ -142,6 +139,7 @@
 		CDDFF3591450627A001F59EE /* NSObject+performSelectorWithArgsArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+performSelectorWithArgsArray.m"; sourceTree = "<group>"; };
 		CDDFF35C145062DE001F59EE /* NSObject+performSelectorWithArgsArrayTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+performSelectorWithArgsArrayTest.h"; sourceTree = "<group>"; };
 		CDDFF35D145062DE001F59EE /* NSObject+performSelectorWithArgsArrayTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+performSelectorWithArgsArrayTest.m"; sourceTree = "<group>"; };
+		CDDFF36214542C22001F59EE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		CDF4AD5A13F1A10800729A97 /* UIColor+hexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+hexString.h"; sourceTree = "<group>"; };
 		CDF4AD5B13F1A10800729A97 /* UIColor+hexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+hexString.m"; sourceTree = "<group>"; };
 		CDF4AD5C13F1A10800729A97 /* UIColor+hexStringTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+hexStringTest.h"; sourceTree = "<group>"; };
@@ -155,6 +153,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDDFF36314542C22001F59EE /* QuartzCore.framework in Frameworks */,
 				CD764EE213D31DB500204E49 /* AVFoundation.framework in Frameworks */,
 				CD764ED813D31CDD00204E49 /* CoreText.framework in Frameworks */,
 				CD252EFB13C71DB9002A0AEB /* UIKit.framework in Frameworks */,
@@ -223,13 +222,12 @@
 		CD252EF913C71DB9002A0AEB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CDDFF36214542C22001F59EE /* QuartzCore.framework */,
 				CD764EE113D31DB500204E49 /* AVFoundation.framework */,
 				CD764ED713D31CDD00204E49 /* CoreText.framework */,
 				CD252EFA13C71DB9002A0AEB /* UIKit.framework */,
 				CD252EFC13C71DB9002A0AEB /* Foundation.framework */,
 				CD252EFE13C71DB9002A0AEB /* CoreGraphics.framework */,
-				CD8BEE3E13DAE30A002FC2F9 /* Cocoa.framework */,
-				CD8BEE4013DAE30B002FC2F9 /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -386,12 +384,6 @@
 			path = "NSString+colorValue";
 			sourceTree = "<group>";
 		};
-		CD8BEE4013DAE30B002FC2F9 /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CD8BEE4113DAE30B002FC2F9 /* AppKit.framework */,
-				CD8BEE4213DAE30B002FC2F9 /* CoreData.framework */,
-				CD8BEE4313DAE30B002FC2F9 /* Foundation.framework */,
 		CDDFF35614506249001F59EE /* NSObject+performSelectorWithArgsArray */ = {
 			isa = PBXGroup;
 			children = (
@@ -631,6 +623,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IOSMisc/IOSMisc-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				INFOPLIST_FILE = "IOSMisc/IOSMisc-Info.plist";
 				PRODUCT_NAME = IOSMisc;
 				WRAPPER_EXTENSION = app;
