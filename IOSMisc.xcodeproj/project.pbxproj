@@ -41,11 +41,9 @@
 		CD764EF013D349F000204E49 /* stars-empty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD764EEA13D349F000204E49 /* stars-empty@2x.png */; };
 		CD764EF113D349F000204E49 /* stars-empty.png in Resources */ = {isa = PBXBuildFile; fileRef = CD764EEB13D349F000204E49 /* stars-empty.png */; };
 		CD764EF413D34B1B00204E49 /* IOSMiscDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD764EF313D34B1B00204E49 /* IOSMiscDemoController.m */; };
-		CD7B481413F2CCF700D7D678 /* PagedScrollViewTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7B481313F2CCF700D7D678 /* PagedScrollViewTestController.m */; };
 		CD7B482313F2E80500D7D678 /* WebNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7B482213F2E80500D7D678 /* WebNavigationViewController.m */; };
 		CD7B482513F2E89800D7D678 /* test1.html in Resources */ = {isa = PBXBuildFile; fileRef = CD7B482413F2E89800D7D678 /* test1.html */; };
 		CD7B482713F2E8CE00D7D678 /* test2.html in Resources */ = {isa = PBXBuildFile; fileRef = CD7B482613F2E8CE00D7D678 /* test2.html */; };
-		CD7B482A13F9356800D7D678 /* PagedScrollViewTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7B482913F9356700D7D678 /* PagedScrollViewTestView.m */; };
 		CD8BEE2E13DADF90002FC2F9 /* NSString+colorValue.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8BEE2D13DADF90002FC2F9 /* NSString+colorValue.m */; };
 		CD8BEE5913DAE48A002FC2F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD252EFA13C71DB9002A0AEB /* UIKit.framework */; };
 		CD8BEE5A13DAE48A002FC2F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD252EFC13C71DB9002A0AEB /* Foundation.framework */; };
@@ -62,8 +60,6 @@
 		CDF4AD6013F1A10E00729A97 /* UIColor+hexString.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF4AD5B13F1A10800729A97 /* UIColor+hexString.m */; };
 		CDF4AD6113F1A11100729A97 /* UIColor+hexStringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF4AD5D13F1A10800729A97 /* UIColor+hexStringTest.m */; };
 		CDF4AD6D13F29F6900729A97 /* NSArray+random.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF4AD6413F29F6800729A97 /* NSArray+random.m */; };
-		CDF4AD6E13F29F6900729A97 /* PagedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF4AD6713F29F6800729A97 /* PagedScrollView.m */; };
-		CDF4AD6F13F29F6900729A97 /* PagedScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF4AD6913F29F6800729A97 /* PagedScrollViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -125,14 +121,10 @@
 		CD764EEB13D349F000204E49 /* stars-empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stars-empty.png"; sourceTree = "<group>"; };
 		CD764EF213D34B1B00204E49 /* IOSMiscDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSMiscDemoController.h; sourceTree = "<group>"; };
 		CD764EF313D34B1B00204E49 /* IOSMiscDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOSMiscDemoController.m; sourceTree = "<group>"; };
-		CD7B481213F2CCF700D7D678 /* PagedScrollViewTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagedScrollViewTestController.h; sourceTree = "<group>"; };
-		CD7B481313F2CCF700D7D678 /* PagedScrollViewTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagedScrollViewTestController.m; sourceTree = "<group>"; };
 		CD7B482113F2E80500D7D678 /* WebNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebNavigationViewController.h; sourceTree = "<group>"; };
 		CD7B482213F2E80500D7D678 /* WebNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebNavigationViewController.m; sourceTree = "<group>"; };
 		CD7B482413F2E89800D7D678 /* test1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test1.html; sourceTree = "<group>"; };
 		CD7B482613F2E8CE00D7D678 /* test2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test2.html; sourceTree = "<group>"; };
-		CD7B482813F9356700D7D678 /* PagedScrollViewTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagedScrollViewTestView.h; sourceTree = "<group>"; };
-		CD7B482913F9356700D7D678 /* PagedScrollViewTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagedScrollViewTestView.m; sourceTree = "<group>"; };
 		CD8BEE2C13DADF90002FC2F9 /* NSString+colorValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+colorValue.h"; sourceTree = "<group>"; };
 		CD8BEE2D13DADF90002FC2F9 /* NSString+colorValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+colorValue.m"; sourceTree = "<group>"; };
 		CD8BEE3E13DAE30A002FC2F9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -156,10 +148,6 @@
 		CDF4AD5D13F1A10800729A97 /* UIColor+hexStringTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+hexStringTest.m"; sourceTree = "<group>"; };
 		CDF4AD6313F29F6800729A97 /* NSArray+random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+random.h"; sourceTree = "<group>"; };
 		CDF4AD6413F29F6800729A97 /* NSArray+random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+random.m"; sourceTree = "<group>"; };
-		CDF4AD6613F29F6800729A97 /* PagedScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagedScrollView.h; sourceTree = "<group>"; };
-		CDF4AD6713F29F6800729A97 /* PagedScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagedScrollView.m; sourceTree = "<group>"; };
-		CDF4AD6813F29F6800729A97 /* PagedScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagedScrollViewController.h; sourceTree = "<group>"; };
-		CDF4AD6913F29F6800729A97 /* PagedScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagedScrollViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,7 +194,6 @@
 				CD0E9A83140A9C83003553AB /* PagedOrthoScrollView */,
 				CD7B482013F2E80500D7D678 /* WebNavigationViewController */,
 				CDF4AD6213F29F6800729A97 /* NSArray+random */,
-				CDF4AD6513F29F6800729A97 /* PagedScrollView */,
 				CDF4AD5913F1A10800729A97 /* UIColor+hexString */,
 				CD8BEE2B13DADF90002FC2F9 /* NSString+colorValue */,
 				CD764E6C13D31C2C00204E49 /* NSString+digest */,
@@ -436,21 +423,6 @@
 			path = "NSArray+random";
 			sourceTree = "<group>";
 		};
-		CDF4AD6513F29F6800729A97 /* PagedScrollView */ = {
-			isa = PBXGroup;
-			children = (
-				CDF4AD6613F29F6800729A97 /* PagedScrollView.h */,
-				CDF4AD6713F29F6800729A97 /* PagedScrollView.m */,
-				CDF4AD6813F29F6800729A97 /* PagedScrollViewController.h */,
-				CDF4AD6913F29F6800729A97 /* PagedScrollViewController.m */,
-				CD7B481213F2CCF700D7D678 /* PagedScrollViewTestController.h */,
-				CD7B481313F2CCF700D7D678 /* PagedScrollViewTestController.m */,
-				CD7B482813F9356700D7D678 /* PagedScrollViewTestView.h */,
-				CD7B482913F9356700D7D678 /* PagedScrollViewTestView.m */,
-			);
-			path = PagedScrollView;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -583,11 +555,7 @@
 				CD8BEE2E13DADF90002FC2F9 /* NSString+colorValue.m in Sources */,
 				CDF4AD5E13F1A10800729A97 /* UIColor+hexString.m in Sources */,
 				CDF4AD6D13F29F6900729A97 /* NSArray+random.m in Sources */,
-				CDF4AD6E13F29F6900729A97 /* PagedScrollView.m in Sources */,
-				CDF4AD6F13F29F6900729A97 /* PagedScrollViewController.m in Sources */,
-				CD7B481413F2CCF700D7D678 /* PagedScrollViewTestController.m in Sources */,
 				CD7B482313F2E80500D7D678 /* WebNavigationViewController.m in Sources */,
-				CD7B482A13F9356800D7D678 /* PagedScrollViewTestView.m in Sources */,
 				CD0E9A86140A9C83003553AB /* PagedOrthoScrollView.m in Sources */,
 				CD9B4A65140BAF4D0080AB96 /* PagedOrthoScrollViewTest.m in Sources */,
 				CDDFF35A1450627A001F59EE /* NSObject+performSelectorWithArgsArray.m in Sources */,
