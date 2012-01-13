@@ -15,16 +15,18 @@
   }
   
   self.viewClass = aViewClass;
+  self.title = NSStringFromClass(self.viewClass);
   
   return self;
 }
 
-- (void)viewDidLoad {
-  self.title = NSStringFromClass(self.viewClass);
+- (void)loadView {
+  self.view = [[[self.viewClass alloc]
+                initWithFrame:[UIScreen mainScreen].bounds]
+               autorelease];
+  self.view.autoresizingMask = (UIViewAutoresizingFlexibleWidth |
+                                UIViewAutoresizingFlexibleHeight);
   self.view.backgroundColor = [UIColor whiteColor];
-  [self.view addSubview:
-   [[[self.viewClass alloc] initWithFrame:self.view.frame]
-    autorelease]];
 }
 
 @end
