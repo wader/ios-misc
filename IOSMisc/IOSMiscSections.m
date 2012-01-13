@@ -5,7 +5,6 @@
 #import "RatingSliderTestView.h"
 #import "CoreTextLabelTestView.h"
 #import "OptionsTableViewController.h"
-#import "PagedScrollViewTestController.h"
 #import "PagedOrthoScrollViewTest.h"
 #import "WebNavigationViewController.h"
 
@@ -38,14 +37,6 @@
    pushViewController:
    [[[IOSMiscDemoController alloc]
      initWithViewClass:[CoreTextLabelTestView class]]
-    autorelease]
-   animated:YES];
-}
-
-- (void)pagedScrollViewController:(id)sender {
-  [self.navigationController
-   pushViewController:
-   [[[PagedScrollViewTestController alloc] init]
     autorelease]
    animated:YES];
 }
@@ -122,8 +113,6 @@
                                           selector:@selector(coreTextLabel:)],		    
                      [self makeSectionRowWithTitle:@"OptionsTableViewController"
                                           selector:@selector(optionsTableViewController:)],	
-                     [self makeSectionRowWithTitle:@"PagedScrollViewController"
-                                          selector:@selector(pagedScrollViewController:)],
                      [self makeSectionRowWithTitle:@"WebNavigationViewController"
                                           selector:@selector(webNavigationViewController:)],    
                      [self makeSectionRowWithTitle:@"PagedOrthoScrollView"
