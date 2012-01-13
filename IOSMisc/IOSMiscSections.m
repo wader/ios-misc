@@ -6,6 +6,7 @@
 #import "CoreTextLabelTestView.h"
 #import "OptionsTableViewController.h"
 #import "PagedScrollViewTestController.h"
+#import "PagedOrthoScrollViewTest.h"
 #import "WebNavigationViewController.h"
 
 @implementation IOSMiscSections
@@ -53,6 +54,15 @@
   [self.navigationController
    pushViewController:
    [[[WebNavigationViewController alloc] initWithFile:@"test1.html"]
+    autorelease]
+   animated:YES];
+}
+
+- (void)pagedOrthoScrollView:(id)sender {
+  [self.navigationController
+   pushViewController:
+   [[[IOSMiscDemoController alloc]
+     initWithViewClass:[PagedOrthoScrollViewTest class]]
     autorelease]
    animated:YES];
 }
@@ -116,6 +126,8 @@
                                           selector:@selector(pagedScrollViewController:)],
                      [self makeSectionRowWithTitle:@"WebNavigationViewController"
                                           selector:@selector(webNavigationViewController:)],    
+                     [self makeSectionRowWithTitle:@"PagedOrthoScrollView"
+                                          selector:@selector(pagedOrthoScrollView:)], 
                      nil]
 		    ],
 		   nil

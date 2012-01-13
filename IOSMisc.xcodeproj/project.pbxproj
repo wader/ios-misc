@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD0E9A86140A9C83003553AB /* PagedOrthoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0E9A85140A9C83003553AB /* PagedOrthoScrollView.m */; };
 		CD252EFB13C71DB9002A0AEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD252EFA13C71DB9002A0AEB /* UIKit.framework */; };
 		CD252EFD13C71DB9002A0AEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD252EFC13C71DB9002A0AEB /* Foundation.framework */; };
 		CD252EFF13C71DB9002A0AEB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD252EFE13C71DB9002A0AEB /* CoreGraphics.framework */; };
@@ -52,6 +53,7 @@
 		CD8BEE6D13DAE558002FC2F9 /* NSString+colorValueTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8BEE6B13DAE541002FC2F9 /* NSString+colorValueTest.m */; };
 		CD8BEE6E13DAE631002FC2F9 /* NSString+colorValue.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8BEE2D13DADF90002FC2F9 /* NSString+colorValue.m */; };
 		CD8BEE7113DAE72C002FC2F9 /* NSString+digestTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8BEE7013DAE72C002FC2F9 /* NSString+digestTest.m */; };
+		CD9B4A65140BAF4D0080AB96 /* PagedOrthoScrollViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9B4A64140BAF4D0080AB96 /* PagedOrthoScrollViewTest.m */; };
 		CD9DC2C713F1884400B9E7EF /* NSString+digest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD764E6E13D31C2C00204E49 /* NSString+digest.m */; };
 		CDDFF35A1450627A001F59EE /* NSObject+performSelectorWithArgsArray.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDFF3591450627A001F59EE /* NSObject+performSelectorWithArgsArray.m */; };
 		CDDFF35B1450627A001F59EE /* NSObject+performSelectorWithArgsArray.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDFF3591450627A001F59EE /* NSObject+performSelectorWithArgsArray.m */; };
@@ -65,6 +67,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD0E9A84140A9C83003553AB /* PagedOrthoScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagedOrthoScrollView.h; sourceTree = "<group>"; };
+		CD0E9A85140A9C83003553AB /* PagedOrthoScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagedOrthoScrollView.m; sourceTree = "<group>"; };
 		CD252EF613C71DB9002A0AEB /* IOSMisc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSMisc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD252EFA13C71DB9002A0AEB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CD252EFC13C71DB9002A0AEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -140,6 +144,8 @@
 		CD8BEE6B13DAE541002FC2F9 /* NSString+colorValueTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+colorValueTest.m"; sourceTree = "<group>"; };
 		CD8BEE6F13DAE72C002FC2F9 /* NSString+digestTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+digestTest.h"; sourceTree = "<group>"; };
 		CD8BEE7013DAE72C002FC2F9 /* NSString+digestTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+digestTest.m"; sourceTree = "<group>"; };
+		CD9B4A63140BAF4D0080AB96 /* PagedOrthoScrollViewTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagedOrthoScrollViewTest.h; sourceTree = "<group>"; };
+		CD9B4A64140BAF4D0080AB96 /* PagedOrthoScrollViewTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagedOrthoScrollViewTest.m; sourceTree = "<group>"; };
 		CDDFF3581450627A001F59EE /* NSObject+performSelectorWithArgsArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+performSelectorWithArgsArray.h"; sourceTree = "<group>"; };
 		CDDFF3591450627A001F59EE /* NSObject+performSelectorWithArgsArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+performSelectorWithArgsArray.m"; sourceTree = "<group>"; };
 		CDDFF35C145062DE001F59EE /* NSObject+performSelectorWithArgsArrayTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+performSelectorWithArgsArrayTest.h"; sourceTree = "<group>"; };
@@ -182,10 +188,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD0E9A83140A9C83003553AB /* PagedOrthoScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				CD0E9A84140A9C83003553AB /* PagedOrthoScrollView.h */,
+				CD0E9A85140A9C83003553AB /* PagedOrthoScrollView.m */,
+				CD9B4A63140BAF4D0080AB96 /* PagedOrthoScrollViewTest.h */,
+				CD9B4A64140BAF4D0080AB96 /* PagedOrthoScrollViewTest.m */,
+			);
+			path = PagedOrthoScrollView;
+			sourceTree = "<group>";
+		};
 		CD252EEB13C71DB8002A0AEB = {
 			isa = PBXGroup;
 			children = (
 				CDDFF35614506249001F59EE /* NSObject+performSelectorWithArgsArray */,
+				CD0E9A83140A9C83003553AB /* PagedOrthoScrollView */,
 				CD7B482013F2E80500D7D678 /* WebNavigationViewController */,
 				CDF4AD6213F29F6800729A97 /* NSArray+random */,
 				CDF4AD6513F29F6800729A97 /* PagedScrollView */,
@@ -570,6 +588,8 @@
 				CD7B481413F2CCF700D7D678 /* PagedScrollViewTestController.m in Sources */,
 				CD7B482313F2E80500D7D678 /* WebNavigationViewController.m in Sources */,
 				CD7B482A13F9356800D7D678 /* PagedScrollViewTestView.m in Sources */,
+				CD0E9A86140A9C83003553AB /* PagedOrthoScrollView.m in Sources */,
+				CD9B4A65140BAF4D0080AB96 /* PagedOrthoScrollViewTest.m in Sources */,
 				CDDFF35A1450627A001F59EE /* NSObject+performSelectorWithArgsArray.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
