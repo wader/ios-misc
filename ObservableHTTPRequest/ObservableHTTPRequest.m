@@ -49,6 +49,22 @@ NSString *const ObservableHTTPRequestEventError = @"error";
 
 @end
 
+@interface NSString (urlQueryComponentEscape)
+- (NSString *)urlQueryComponentEscape;
+@end
+
+@implementation NSString (urlQueryComponentEscape)
+- (NSString *)urlQueryComponentEscape {
+  return [((NSString *)CFURLCreateStringByAddingPercentEscapes(NULL,
+                                                               (CFStringRef)self,
+                                                               NULL,
+                                                               // reserved in query (rfc2396)
+                                                               (CFStringRef)@";/?:@&=+,$",
+                                                               kCFStringEncodingUTF8))
+          autorelease];
+}
+@end
+
 @implementation ObservableURLConnection
 
 @synthesize observableName;
@@ -121,10 +137,9 @@ NSString *const ObservableHTTPRequestEventError = @"error";
   int len = [dict count];
   for (NSString *key in [dict allKeys]) {
     NSString *value = [dict objectForKey:key];
-    [encoded appendString:key];
+    [encoded appendString:[key urlQueryComponentEscape]];
     [encoded appendString:@"="];
-    [encoded appendString:
-     [value stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
+    [encoded appendString:[value urlQueryComponentEscape]];
     if (len > 1) {
       [encoded appendString:@"&"];
     }
