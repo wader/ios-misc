@@ -11,10 +11,10 @@ Example usage
 -------------
 
 Usage in view 
-[CoreTextLabelTestView.m](/wader/ios-misc/blob/master/CoreTextLabel/CoreTextLabelTestView.m)
+[CoreTextLabelTestView.m](CoreTextLabelTestView.m)
 and
-[CoreTextLabelTestView.h](/wader/ios-misc/blob/master/CoreTextLabel/CoreTextLabelTestView.h)
+[CoreTextLabelTestView.h](CoreTextLabelTestView.h)
 
 Labels in `CoreTextLabelTestView` will look like this:
 
-![CoreTextLabel example image](/wader/ios-misc/raw/master/CoreTextLabel/CoreTextLabelExample.png)
+![CoreTextLabel example image](CoreTextLabelExample.png)
