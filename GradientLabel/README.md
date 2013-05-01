@@ -7,15 +7,15 @@ Example usage
 -------------
 
 Custome subclass
-[GradientLabelTest.m](/wader/ios-misc/blob/master/GradientLabel/GradientLabelTest.m)
+[GradientLabelTest.m](GradientLabelTest.m)
 and
-[GradientLabelTest.h](/wader/ios-misc/blob/master/GradientLabel/GradientLabelTest.h)
+[GradientLabelTest.h](GradientLabelTest.h)
 
 Usage in view 
-[GradientLabelTestView.m](/wader/ios-misc/blob/master/GradientLabel/GradientLabelTestView.m)
+[GradientLabelTestView.m](GradientLabelTestView.m)
 and
-[GradientLabelTestView.h](/wader/ios-misc/blob/master/GradientLabel/GradientLabelTestView.h)
+[GradientLabelTestView.h](GradientLabelTestView.h)
 
 Label in `GradientLabelTestView` will look like this:
 
-![GradientLabel example image](/wader/ios-misc/raw/master/GradientLabel/GradientLabelExample.png)
+![GradientLabel example image](GradientLabelExample.png)
