@@ -36,4 +36,4 @@ Example usage
 
 Modal view will look like this:
 
-![OptionsTableViewController example image](/wader/ios-misc/raw/master/OptionsTableViewController/OptionsTableViewControllerExample.png)
+![OptionsTableViewController example image](OptionsTableViewControllerExample.png)
