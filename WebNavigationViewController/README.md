@@ -14,4 +14,4 @@ Example usage
 
 Looks like:
 
-![WebNavigationViewController example image](/wader/ios-misc/raw/master/WebNavigationViewController/WebNavigationViewControllerExample.png)
+![WebNavigationViewController example image](WebNavigationViewControllerExample.png)
